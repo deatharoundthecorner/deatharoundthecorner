@@ -20,3 +20,8 @@
 ### 📫 Let's Connect!
 - 📧 Email: [danan20040520@gmail.com](mailto:danan20040520@gmail.com)  
 - 🔗 LinkedIn: [oshadha-dhananjaya](https://linkedin.com/in/oshadha-dhananjaya-8b3586364)
+
+<h3 align="center">🧠 Currently Learning...</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70000&width=435&lines=Cybersecurity;Entrepreneurship;CAD Projects;Linux+Hacking+Tools" alt="Typing SVG" />
+</p>
