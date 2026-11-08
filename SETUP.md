@@ -1,47 +1,17 @@
-# GitHub profile README — setup guide
+# Publish the GitHub profile README
 
-This profile kit is for `github.com/deatharoundthecorner`.
+1. Open https://github.com/deatharoundthecorner/deatharoundthecorner.
+2. Replace the repository's `README.md` with this package's `README.md`.
+3. Upload `assets/cyber-banner.png` to the repository path `assets/cyber-banner.png`.
+4. Create or replace `.github/workflows/snake.yml` using the workflow supplied here.
+5. Commit all changes to the default branch (usually `main`).
+6. In **Settings → Actions → General → Workflow permissions**, allow **Read and write permissions**.
+7. Open **Actions → Generate contribution snake → Run workflow**. Wait for the run to complete and confirm that an `output` branch appears containing the generated SVG files.
 
-## Files in this kit
+The README's banner is a local repository image, so it does not depend on an external image host. The snake will not appear until the workflow has run successfully at least once. GitHub's own contribution calendar is shown separately below the profile README.
 
-```text
-README.md
-SETUP.md
-assets/
-  cyber-banner.png
-.github/
-  workflows/
-    snake.yml
-```
+## Files
 
-## Upload using the GitHub website
-
-1. Extract the ZIP file on your computer.
-2. Open <https://github.com/deatharoundthecorner/deatharoundthecorner>.
-3. Select **Add file → Upload files**.
-4. Upload `README.md`, `SETUP.md`, the `assets` folder, and the `.github` folder from the extracted kit.
-5. Keep the folder paths unchanged. In particular, the workflow must be at `.github/workflows/snake.yml`.
-6. Scroll down, enter a commit message such as `Refresh profile README`, and select **Commit changes**.
-
-If GitHub's browser uploader does not preserve a hidden `.github` folder when you drag it in, create the folders in the repository using **Add file → Create new file** and enter `.github/workflows/snake.yml` as the filename. Paste the contents from the matching file in this kit.
-
-## Activate the contribution snake
-
-1. Open the profile repository's **Settings → Actions → General**.
-2. Under **Workflow permissions**, select **Read and write permissions** and save if required.
-3. Open the **Actions** tab.
-4. Choose **Generate contribution snake** from the workflow list.
-5. Select **Run workflow** and run it on the default branch.
-6. Wait for the run to finish successfully. It creates or updates the `output` branch with the SVG images.
-
-The snake image will be blank or broken until the first successful run creates those files. The workflow also runs once per day automatically.
-
-## Why the stats cards were removed
-
-The old README used third-party GitHub statistics and activity-graph image services. Those services can be unavailable, rate-limited, or return empty images. This version avoids those fragile score cards and instead highlights three real repositories, their engineering focus, and GitHub's own contribution calendar, which already appears below the profile README on the profile page.
-
-## Before publishing
-
-- Confirm that the email and LinkedIn links are the contact details you want to make public.
-- Remove or edit any technology you do not use or are not actively learning.
-- Pin your strongest repositories on your GitHub profile so visitors can find the projects quickly.
+- `README.md` — the profile content.
+- `assets/cyber-banner.png` — custom neon-green cyber banner.
+- `.github/workflows/snake.yml` — contribution snake automation.
