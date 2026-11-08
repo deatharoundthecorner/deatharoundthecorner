@@ -1,20 +1,8 @@
-# GitHub profile setup
+# GitHub profile README — setup guide
 
-This kit is designed for the GitHub account `deatharoundthecorner`.
+This profile kit is for `github.com/deatharoundthecorner`.
 
-## 1. Create or open the profile repository
-
-GitHub displays a profile README when the repository is **public**, its name exactly matches your username, and it contains a non-empty `README.md` in the repository root.
-
-Open <https://github.com/new> and create a public repository named:
-
-`deatharoundthecorner`
-
-If that repository already exists, use it instead of creating a second one.
-
-## 2. Copy the kit into the repository
-
-Extract this ZIP file. It contains:
+## Files in this kit
 
 ```text
 README.md
@@ -26,52 +14,34 @@ assets/
     snake.yml
 ```
 
-The easiest safe method is to clone your profile repository, copy these files into the cloned folder, then commit and push:
+## Upload using the GitHub website
 
-```bash
-git clone https://github.com/deatharoundthecorner/deatharoundthecorner.git
-cd deatharoundthecorner
-```
+1. Extract the ZIP file on your computer.
+2. Open <https://github.com/deatharoundthecorner/deatharoundthecorner>.
+3. Select **Add file → Upload files**.
+4. Upload `README.md`, `SETUP.md`, the `assets` folder, and the `.github` folder from the extracted kit.
+5. Keep the folder paths unchanged. In particular, the workflow must be at `.github/workflows/snake.yml`.
+6. Scroll down, enter a commit message such as `Refresh profile README`, and select **Commit changes**.
 
-Now copy `README.md`, `SETUP.md`, the `assets` folder, and the `.github` folder from the extracted kit into this cloned repository. Allow `README.md` to be replaced if Git asks.
+If GitHub's browser uploader does not preserve a hidden `.github` folder when you drag it in, create the folders in the repository using **Add file → Create new file** and enter `.github/workflows/snake.yml` as the filename. Paste the contents from the matching file in this kit.
 
-Then run:
+## Activate the contribution snake
 
-```bash
-git add README.md SETUP.md assets/cyber-banner.png .github/workflows/snake.yml
-git commit -m "Add cyber-themed GitHub profile"
-git push
-```
+1. Open the profile repository's **Settings → Actions → General**.
+2. Under **Workflow permissions**, select **Read and write permissions** and save if required.
+3. Open the **Actions** tab.
+4. Choose **Generate contribution snake** from the workflow list.
+5. Select **Run workflow** and run it on the default branch.
+6. Wait for the run to finish successfully. It creates or updates the `output` branch with the SVG images.
 
-If you already have a local clone, do not clone again; just copy the kit files into that clone and run the final three commands.
+The snake image will be blank or broken until the first successful run creates those files. The workflow also runs once per day automatically.
 
-## 3. Enable and run the contribution snake
+## Why the stats cards were removed
 
-1. Open the repository on GitHub.
-2. Go to **Settings → Actions → General**.
-3. Under **Workflow permissions**, select **Read and write permissions** if it is not already enabled, then save.
-4. Open the **Actions** tab.
-5. Select **Generate contribution snake**.
-6. Click **Run workflow** and run it on your default branch (normally `main`).
-7. Wait for the run to finish successfully. It will create/update an `output` branch containing the SVG files.
+The old README used third-party GitHub statistics and activity-graph image services. Those services can be unavailable, rate-limited, or return empty images. This version avoids those fragile score cards and instead highlights three real repositories, their engineering focus, and GitHub's own contribution calendar, which already appears below the profile README on the profile page.
 
-The workflow also runs daily on a schedule. GitHub may delay scheduled runs during busy periods.
+## Before publishing
 
-The README's snake image may appear broken until the first workflow run completes and creates the `output` branch.
-
-## 4. Check the profile
-
-Open <https://github.com/deatharoundthecorner>. The README should appear at the top of the profile. Refresh after the first workflow run if the snake image is not visible yet.
-
-## 5. Personalise before publishing
-
-- Keep only the languages and tools you have actually used or are actively learning.
-- Make sure the LinkedIn URL and email address in `README.md` are still the contact details you want public.
-- Add links to other projects only when their repositories are public and ready to show.
-- Pin your strongest 3–6 repositories on your GitHub profile.
-
-## Notes
-
-- The cyber banner is stored locally at `assets/cyber-banner.png`; it does not depend on an external image host.
-- The typing effect, statistics cards, language icons, and activity graph use third-party hosted services. They can occasionally be slow, cached, rate-limited, or unavailable. The README text and local banner still work without them.
-- GitHub profile statistics are community-maintained widgets, not official GitHub analytics. Treat them as visual extras rather than a measure of skill.
+- Confirm that the email and LinkedIn links are the contact details you want to make public.
+- Remove or edit any technology you do not use or are not actively learning.
+- Pin your strongest repositories on your GitHub profile so visitors can find the projects quickly.

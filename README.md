@@ -1,6 +1,6 @@
 <!--
-  GitHub profile README for: deatharoundthecorner
-  Keep the claims below aligned with tools and technologies you can confidently discuss.
+  Profile README for: github.com/deatharoundthecorner
+  Keep this profile focused on verifiable projects, practical skills, and ongoing learning.
 -->
 
 <p align="center">
@@ -10,88 +10,122 @@
 <h1 align="center">OSHADHA DHANANJAYA</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&pause=1000&color=00FF41&center=true&vCenter=true&width=900&height=45&lines=Cybersecurity+Enthusiast;Full-Stack+Developer;OSINT+Research;Mobile+App+Development;Building+and+Learning+Every+Day" alt="Cybersecurity, development, OSINT and mobile development" />
+  <strong>Cybersecurity Enthusiast · Full-Stack Developer · OSINT Research · Mobile Development</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/deatharoundthecorner">
-    <img src="https://img.shields.io/badge/GitHub-deatharoundthecorner-0D1117?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub profile" />
-  </a>
-  <a href="https://www.linkedin.com/in/oshadha-dhananjaya-8b3586364/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0D1117?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn" />
-  </a>
-  <a href="mailto:danan20040520@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-0D1117?style=for-the-badge&logo=gmail&logoColor=00FF41" alt="Email" />
-  </a>
+  <a href="https://github.com/deatharoundthecorner">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/oshadha-dhananjaya-8b3586364/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:danan20040520@gmail.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0004-1248-680X">ORCID</a>
 </p>
 
 ---
 
 ## `$ whoami`
 
-I'm an Information Systems undergraduate at the University of Colombo School of Computing (UCSC), interested in cybersecurity, full-stack development, OSINT, and mobile application development.
+I'm an Information Systems undergraduate at the **University of Colombo School of Computing (UCSC)** with a strong interest in cybersecurity and software engineering.
 
-I enjoy understanding how systems work, building practical software, exploring web security, and solving problems through code. My approach is to learn by building, document what I discover, and keep improving the quality and security of my work.
+I enjoy understanding how systems work, building useful applications, exploring web security, and learning how to make software more reliable and secure. I learn by experimenting, building practical projects, reading documentation, and improving my work through testing.
 
-## `// Focus areas`
+My main areas of interest are:
 
-<p>
-  <img src="https://img.shields.io/badge/WEB%20APPLICATION%20SECURITY-0D1117?style=for-the-badge&logo=owasp&logoColor=00FF41" alt="Web application security" />
-  <img src="https://img.shields.io/badge/OSINT-0D1117?style=for-the-badge&logoColor=00FF41" alt="OSINT" />
-  <img src="https://img.shields.io/badge/FULL--STACK%20DEVELOPMENT-0D1117?style=for-the-badge&logo=code&logoColor=00FF41" alt="Full stack development" />
-  <img src="https://img.shields.io/badge/ANDROID%20DEVELOPMENT-0D1117?style=for-the-badge&logo=android&logoColor=00FF41" alt="Android development" />
-  <img src="https://img.shields.io/badge/NETWORKING%20%26%20LINUX-0D1117?style=for-the-badge&logo=linux&logoColor=00FF41" alt="Networking and Linux" />
-</p>
+- **Cybersecurity:** web application security, security fundamentals, vulnerability assessment, and ethical research.
+- **Software development:** full-stack applications, APIs, databases, and automation.
+- **Systems:** Linux, networking, C programming, and understanding how software communicates.
+- **Digital investigation:** OSINT methods, information verification, and responsible research.
+- **Mobile development:** Android applications and maintainable application architecture.
 
-## `// Languages & technologies`
+## `// Featured engineering work`
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,java,kotlin,php,js,ts,c,html,css,react,mysql,sqlite,git,github,linux,vscode,androidstudio&perline=9" alt="Python, Java, Kotlin, PHP, JavaScript, TypeScript, C, HTML, CSS, React, MySQL, SQLite, Git, GitHub, Linux, VS Code and Android Studio" />
-  </a>
-</p>
+These projects show the kinds of problems I enjoy working on. Open the repositories for source code, implementation details, and project documentation.
 
-<p align="center"><sub>Technologies I work with or am actively learning. The icons are not proficiency ratings.</sub></p>
+### 01. Student Management System
 
-## `// Security toolkit`
+[**STUDENT-MANAGEMENT-SYSTEM-FOR-VTA**](https://github.com/deatharoundthecorner/STUDENT-MANAGEMENT-SYSTEM-FOR-VTA-)
 
-<p>
-  <img src="https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logoColor=00FF41" alt="Nmap" />
-  <img src="https://img.shields.io/badge/Wireshark-0D1117?style=for-the-badge&logo=wireshark&logoColor=00FF41" alt="Wireshark" />
-  <img src="https://img.shields.io/badge/Burp%20Suite-0D1117?style=for-the-badge&logoColor=00FF41" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/OpenSSL-0D1117?style=for-the-badge&logo=openssl&logoColor=00FF41" alt="OpenSSL" />
-  <img src="https://img.shields.io/badge/OWASP-0D1117?style=for-the-badge&logo=owasp&logoColor=00FF41" alt="OWASP" />
-</p>
+An offline Windows desktop application for managing student records in vocational training environments.
 
-Areas I'm developing practical experience in include web application security, the OWASP Top 10, vulnerability assessment, Linux, networking, and ethical security research. I only test systems where I have permission.
+- Built with **Python, PySide6, and SQLite**.
+- Includes student records, search and filtering, dashboards, and data import/export workflows.
+- Focuses on local data handling, audit history, backup and restore, and practical administration workflows.
 
-## `// Selected builds`
+**What it demonstrates:** desktop application development, relational data modelling, user workflows, and reliability-focused engineering.
 
-### [Sithumini Cinnamon Hub](https://github.com/deatharoundthecorner/SIthumini-Cinnamon-Hub)
+### 02. HTTP/1.1 Web Server in C
 
-A storefront project focused on product catalogues, market-specific pricing, inventory, and checkout workflows. Working with web technologies including React and TypeScript.
+[**http-server-c**](https://github.com/deatharoundthecorner/http-server-c)
 
-### Student Management System
+A lightweight educational HTTP/1.1 server implemented in C using POSIX sockets.
 
-An offline Windows desktop application concept for managing vocational training institute student records. The implementation uses Python, PySide6, and SQLite, with a focus on search, record management, imports/exports, audit history, and backup workflows.
+- Handles HTTP requests and responses and serves static files.
+- Detects MIME types and returns relevant HTTP status codes.
+- Includes input checks and path-traversal protections.
+- Uses a Makefile-based build workflow.
 
-## `// Current interests`
+**What it demonstrates:** networking fundamentals, socket programming, protocol handling, memory management, and secure input handling.
 
-- Secure web application design and testing
-- OSINT methods and digital investigation
-- Android and mobile application development
-- API development, databases, and automation
-- Linux, networking, and cloud technologies
+### 03. Android Text Editor with Version History
 
-## `// GitHub statistics`
+[**IS2205-Mobile-Text-Editor**](https://github.com/deatharoundthecorner/IS2205-Mobile-Text-Editor)
+
+An Android text editor project built with Kotlin, with a local version-control subsystem.
+
+- Uses Android and Material components with an MVVM-style structure.
+- Stores file and version information using Room.
+- Includes text-diff and version-history concepts.
+
+**What it demonstrates:** Android development, application architecture, local persistence, and algorithmic problem solving.
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=deatharoundthecorner&show_icons=true&theme=chartreuse-dark&hide_border=true&include_all_commits=true" alt="GitHub statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deatharoundthecorner&layout=compact&theme=chartreuse-dark&hide_border=true" alt="Top languages" />
+  <a href="https://github.com/deatharoundthecorner?tab=repositories">Explore all repositories →</a>
 </p>
 
+## `// Technical toolbox`
+
+The technologies below are tools I work with or am actively learning. They are not proficiency ratings.
+
+| Area | Technologies |
+|---|---|
+| **Languages** | Python · Java · Kotlin · PHP · JavaScript · TypeScript · C |
+| **Web** | HTML · CSS · JavaScript · React · REST API concepts |
+| **Databases** | SQLite · MySQL |
+| **Mobile** | Android · Kotlin · Android Studio |
+| **Systems & workflow** | Linux · Networking · Git · GitHub · VS Code |
+| **Security learning** | OWASP Top 10 · Nmap · Wireshark · Burp Suite · OpenSSL |
+
+## `// Security mindset`
+
+I'm interested in understanding security issues from both the developer and defender perspectives:
+
+- Learn how web applications handle input, authentication, sessions, and access control.
+- Understand common web security risks and how to reduce them during development.
+- Use tools such as Nmap, Wireshark, and Burp Suite in controlled learning environments.
+- Practise OSINT with publicly available information, careful verification, and respect for privacy.
+
+**Ethics first:** I only test systems when I have clear permission and stay within the agreed scope.
+
+## `// What I'm learning next`
+
+- Strengthening web application security knowledge and secure coding practices.
+- Building and testing full-stack applications and REST APIs.
+- Improving Linux, networking, and systems-programming fundamentals.
+- Exploring Android architecture and maintainable mobile application design.
+- Developing structured OSINT and digital-investigation techniques.
+
+## `// A meaningful look at my GitHub`
+
+I prefer showing real work over relying on third-party score cards that can disappear, become rate-limited, or show stale data.
+
+- **Project evidence:** the repositories above contain the code, documentation, and implementation details.
+- **Contribution history:** GitHub's own contribution calendar is displayed below this README on my profile.
+- **Current direction:** software engineering with a security-first mindset.
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deatharoundthecorner&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=true" alt="GitHub activity graph" width="100%" />
+  <em>Consistency matters more than a score. The goal is to keep building, learning, and improving.</em>
 </p>
 
 ## `// Contribution snake`
@@ -100,18 +134,26 @@ An offline Windows desktop application concept for managing vocational training 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/deatharoundthecorner/deatharoundthecorner/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/deatharoundthecorner/deatharoundthecorner/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation over the GitHub contribution graph" src="https://raw.githubusercontent.com/deatharoundthecorner/deatharoundthecorner/output/github-contribution-grid-snake.svg" width="100%" />
+    <img src="https://raw.githubusercontent.com/deatharoundthecorner/deatharoundthecorner/output/github-contribution-grid-snake.svg" alt="Animated snake moving across the GitHub contribution grid" width="100%" />
   </picture>
 </p>
 
-## `// Contact`
+<p align="center"><sub>The animation appears after the GitHub Actions workflow in this repository runs successfully.</sub></p>
+
+## `// Find me`
 
 <p align="center">
-  <a href="https://github.com/deatharoundthecorner">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/oshadha-dhananjaya-8b3586364/">LinkedIn</a> ·
+  <a href="https://github.com/deatharoundthecorner">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/oshadha-dhananjaya-8b3586364/">LinkedIn</a>
+  &nbsp;·&nbsp;
   <a href="mailto:danan20040520@gmail.com">Email</a>
+  &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0004-1248-680X">ORCID</a>
 </p>
 
-<p align="center"><b>Build securely. Learn continuously. Think critically.</b></p>
+<p align="center">
+  <strong>Build securely. Learn continuously. Think critically.</strong>
+</p>
 
-<p align="center"><sub>Ethical research • Practical development • Continuous learning</sub></p>
+<p align="center"><sub>Ethical research · Practical development · Continuous learning</sub></p>
